@@ -1,0 +1,64 @@
+body {
+  background-color: #01162c;
+}
+
+section {
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  font-size: 11pt;
+}
+
+.terminal {
+  color: #fff;
+}
+
+.green {
+  color: #06e983;
+}
+
+.name {
+  color: #cd2f33;
+  font-weight: bold;
+}
+
+.prompt {
+  color: #fff;
+}
+
+.commands {
+  color: #fff;
+}
+
+.output {
+  color: green;
+}
+
+.loading {
+  color: #fff;
+}
+
+.terminal-data {
+  display: none;
+}
+
+.hint {
+  color: purple;
+  font-weight: bold;
+}
+
+#input-prompt {
+  position: relative;
+  background-color: transparent;
+  height: auto;
+  display: block;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  font-size: 11pt;
+  width: 800px;
+  margin: auto;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding-top: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
