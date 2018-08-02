@@ -48,6 +48,7 @@ window.onload = function() {
           callback: function() {
             let commands = $('.commands').html();
             commands = commands ? [commands] : [];
+            // Add commands to array
             commands.push('$ ' + prompt.text() + inputPrompt.text());
             if (script.output) {
               commands.push(script.output);
