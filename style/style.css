@@ -52,13 +52,14 @@ section {
   display: block;
   font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
   font-size: 11pt;
-  width: 800px;
-  margin: auto;
+  margin: 0 1rem;
   color: #fff;
   border: none;
   outline: none;
-  padding-top: 20px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
+}
+
+.prompt-form::before {
+  content: "$";
+  position: relative;
+  top: 1.1rem;
 }

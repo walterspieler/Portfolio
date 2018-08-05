@@ -101,4 +101,13 @@ window.onload = function() {
 
     });
   }
+
+  $('#promptForm').submit(((e) => {
+    e.preventDefault();
+    console.log($('#input-prompt').val());
+  }));
+
+
+
+
 };
